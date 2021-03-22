@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '11.0'
+
+target 'ReactNativeCxxreact_Example' do
+  pod 'ReactNativeCxxreact', :path => '../'
+
+  target 'ReactNativeCxxreact_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
